@@ -6,6 +6,7 @@
     <string name="msg_loading">Loading …</string>
     <string name="msg_double_press_back">Press back again to quit</string>
     <string name="msg_permission_read_media_image_reason">Need permission to read media images</string>
+    <string name="msg_permission_camera">Need permission to access camera</string>
     <string name="txt_ok_btn">OK</string>
     <string name="txt_test_btn">TEST BTN</string>
     <string name="txt_test_msg">TEST MSG</string>

@@ -13,13 +13,15 @@
         android:layout_height="0dp"
         android:layout_weight="1">
 
+        <org.opencv.android.JavaCameraView
+            android:id="@+id/camera_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
         <ImageView
-            android:id="@+id/img_test"
+            android:id="@+id/img_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
             android:contentDescription="@string/txt_test_msg" />
 
     </FrameLayout>
